@@ -1,0 +1,229 @@
+{
+    "days": [
+      {
+        "name": "Monday",
+        "periods": [
+          {"subject": "Knowledge Base System", "teacherIds": [3]},
+          {"subject": "AI System Engineering", "teacherIds": [4]},
+          {"subject": "Cloud Computing Lab", "teacherIds": [16]},
+          {"subject": "Cloud Computing Lab", "teacherIds": [8]},
+          {"subject": "Association", "teacherIds": [11]},
+          {"subject": "Advanced Machine Learning", "teacherIds": [1]},
+          {"subject": "Artificial Neural Network", "teacherIds": [2]}
+        ]
+      },
+      {
+        "name": "Tuesday",
+        "periods": [
+          {"subject": "Cloud Computing Lab", "teacherIds": [16]},
+          {"subject": "Cloud Computing Lab", "teacherIds": [8]},
+          {"subject": "Artifical Neural Network", "teacherIds": [2]},
+          {"subject": "Distributed and Cloud Computing", "teacherIds": [5]},
+          {"subject": "Full Stack Web Development Lab",  "teacherIds": [7]},
+          {"subject": "Full Stack Web Development Lab", "teacherIds": [6]},
+          {"subject": "TWM", "teacherIds": [12]}
+        ]
+      },
+      {
+        "name": "Wednesday",
+        "periods": [
+          {"subject": "Knowledge Base System", "teacherIds": [3]},
+          {"subject": "Advanced Machine Learning", "teacherIds": [1]},
+          {"subject": "Full Stack Web Development Lab" , "teacherIds": [7]},
+          {"subject": "Full Stack Web Development Lab", "teacherIds": [6]},
+          {"subject": "Distributed and Cloud Computing", "teacherIds": [5]},
+          {"subject": "Subject Counselling Hour", "teacherIds": [15]},
+          {"subject": "Physical Education", "teacherIds": [14]}
+        ]
+      },
+      {
+        "name": "Thursday",
+        "periods": [
+            {"subject": "Distributed and Cloud Computing","teacherIds": [5]},
+            {"subject": "Software Engineering",  "teacherIds": [13]},
+            {"subject": "Advanced Machine Learning Lab" ,  "teacherIds": [2]},
+            {"subject": "Advanced Machine Learning Lab", "teacherIds": [1]},
+            {"subject": "AI System Engineering ", "teacherIds": [4]},
+            {"subject": "AI System Engineering ", "teacherIds": [4]},
+            {"subject": "Advanced Machine Learning", "teacherIds": [1]}
+          ]
+      },
+      {
+        "name": "Friday",
+        "periods": [
+          {"subject": "Artifical Neural Network", "teacherIds": [2]},
+          {"subject": "Knowledge Base System","teacherIds": [3]},
+          {"subject": "Personality Developement",  "teacherIds": [9]},
+          {"subject": "Personality Developement", "teacherIds": [10]},
+          {"subject": "Software Engineering","teacherIds": [13]},
+          {"subject": "Advanced Machine Learning Lab", "teacherIds": [2]},
+          {"subject": "Advanced Machine Learning Lab", "teacherIds": [2]}
+        ]
+      }
+     
+    ],
+    "teachers": [
+        {
+          "id": 1,
+          "name": "Dr.E.CHANDRA BLESSIE MCA.,M.Phil.,Ph.D",
+          "phone": "8072009428",
+          "email": "blessie@cit.edu.in",
+          "room": "IT Block - Room 429",
+          "subjects": "Advanced Machine Learning",
+          "department": "Artifical Intelligence and Machine Learnings",
+          "image": "Chandra.png"
+        },
+        {
+            "id": 2,
+            "name": "Dr.J.Shana (HOD In-Charge) M.C.A.,M.Phil.,Ph.D.,",
+            "phone": "9952622667",
+            "email": "shana@cit.edu.in",
+            "room": "IT Block - Room 426",
+            "subjects": ["Artifical Neural Network"],
+            "department": "Artifical Intelligence and Machine Learning",
+            "image": "Shana.png"
+          },
+          {
+            "id": 3,
+            "name": "Dr.D. KAVITHA MCA.,M.Phil.,PhD",
+            "phone": "8248164968",
+            "email": "kavithad@cit.edu.in",
+            "room": "IT Block - Room 407",
+            "subjects": ["Knowledge Based System"],
+            "department": "Artifical Intelligence and Machine Learning",
+            "image": "Kavitha.png"
+          },
+          {
+            "id": 4,
+            "name": "Dr.S.B. Mahalakshmi MSc.,M.Phil.,PhD",
+            "phone": "8667709578",
+            "email": "mahalakshmi@cit.edu.in",
+            "room": "IT Block - Room 429",
+            "subjects": ["AI System Engineering"],
+            "department": "Artifical Intelligence and Machine Learning",
+            "image": "Maha.png"
+          },          
+          {
+            "id": 5,
+            "name": "Ms.K.Kalaivani M.E.,",
+            "phone": "7010982474",
+            "email": "kalaivani.k@cit.edu.in",
+            "room": "IT Block - Room 408",
+            "subjects": ["Cloud Computing Lab"],
+            "department": "Artifical Intelligence and Machine Learning",
+            "image": "Kalaivani.png"
+          },
+          {
+          "id": 6,
+          "name": "Dr.V.Keerthika M.Sc.,Ph.D",
+          "phone": "9842013283",
+          "email": "vkeerthika@cit.edu.in",
+          "room": "CM Block - Room 407",
+          "subjects": ["Full Stack Wen Developement Lab"],
+          "department": "Software System",
+          "image": "Keerthika.png"
+          },
+          {
+            "id": 7,
+            "name": "Dr.N.Priya M.Sc.,Ph.D",
+            "phone": "9791410181",
+            "email": "npriya@cit.edu.in",
+            "room": "CM Block - Room 407",
+            "subjects": ["Full Stack Wen Developement Lab"],
+            "department": "Software System",
+            "image": "Priya.png"
+          },
+          {
+            "id": 8,
+            "name": "Dr. K. Swathine M.C.A., Ph.D.,",
+            "phone": "9566592881",
+            "email": "swathinek@cit.edu.in",
+            "room": "CM Block - Room 412",
+            "subjects": ["Cloud Computing Lab"],
+            "department": "Artifical Intelligence and Machine Learning",
+            "image": "Swathine.png"
+          },
+          {
+            "id": 9,
+            "name": "Mr.E.Justin Ruben M.A.,M.Phil.,",
+            "phone": "9585351213",
+            "email": "justinruben@cit.edu.in",
+            "room": "Main Block - Room 412",
+            "subjects": ["Cloud Computing Lab"],
+            "department": "Humanities",
+            "image": "Justin.png"
+          },
+          {
+          "id": 10,
+          "name": "Ms.J.Asha M.A.,M.Phil.,",
+          "phone": "9894272007",
+          "email": "jasha@cit.edu.in",
+          "room": "Main Block - Room 412",
+          "subjects": ["Cloud Computing Lab"],
+          "department": "Humanities",
+          "image": "Asha.png"
+        },
+        {
+        "id": 11,
+        "name": "Dr. K. Swathine M.C.A., Ph.D.,",
+        "phone": "9566592881",
+        "email": "swathinek@cit.edu.in",
+        "room": "CM Block - Room 412",
+        "subjects": ["Association"],
+        "department": "Artifical Intelligence and Machine Learning",
+        "image": "Swathine.png"
+        },
+        {
+          "id": 12,
+          "name": "Dr.S.B. Mahalakshmi MSc.,M.Phil.,PhD",
+          "phone": "8667709578",
+          "email": "mahalakshmi@cit.edu.in",
+          "room": "IT Block - Room 429",
+          "subjects": ["Tutor"],
+          "department": "Artifical Intelligence and Machine Learning",
+          "image": "Maha.png"
+        },
+        {
+          "id": 13,
+          "name": "Dr.S.B. Mahalakshmi MSc.,M.Phil.,PhD",
+          "phone": "8667709578",
+          "email": "mahalakshmi@cit.edu.in",
+          "room": "IT Block - Room 429",
+          "subjects": ["Software Engineering"],
+          "department": "Artifical Intelligence and Machine Learning",
+          "image": "Maha.png"
+        },
+        {
+          "id": 14,
+          "name": "No Teacher",
+          "phone": "No Phone Number",
+          "email": "No Mail",
+          "room": "No Room",
+          "subjects": ["No Subject"],
+          "department": "No Department",
+          "image": "Free.jpg"
+        },
+        {
+          "id": 15,
+          "name": "No Teacher",
+          "phone": "No Phone Number",
+          "email": "No Mail",
+          "room": "No Room",
+          "subjects": ["No Subject"],
+          "department": "No Department",
+          "image": "Free.jpg"
+        },
+        {
+          "id": 16,
+          "name": " Dr.D.Manju M.C.A,M.Phil,Ph.D",
+          "phone": "4222574071",
+          "email": "manju@cit.edu.in",
+          "room": "CM Block - Room 407",
+          "subjects": ["Cloud Computing Lab"],
+          "department": "M.Sc. Decision and Computing Sciences",
+          "image": "Manju.png"
+        }   
+        
+
+      ]
+  }
